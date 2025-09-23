@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+    int a = 2, b = 3;
+    while (a < 8) {
+        b = b + ++a;
+        printf("%d ", b);
+        if (b > 10) {
+            a--;
+            break;
+        }
+        b--;
+    }
+    printf("A%dB%d", a, b);
+    return 0;
+}
+/*
+    a=4, b=13
+
+    6913A4B13
+
+*/
