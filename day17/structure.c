@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include<string.h>
+
+struct user {
+    char name[100];
+    int age;
+    float height;
+};
+
+int main() {
+
+    struct user user1;
+    user1.age = 25;
+    user1.height = 5.6;
+    strcpy(user1.name, "Hello");
+
+    // struct user user2;
+    // user2.age = 30;
+    // user2.height = 4.6;
+    // strcpy(user2.name, "Welcome");
+
+    // printf("%s\n", user1.name);
+    // printf("%d\n", user1.age);
+    // printf("%f\n", user1.height);
+    // printf("%s\n", user2.name);
+    // printf("%d\n", user2.age);
+    // printf("%f\n", user2.height);
+
+
+
+    return 0;
+}
+
+/*
+    Predefind Data Types
+        - int, float, char
+    User Defined Data Type
+        - Strucutre
+
+
+
+*/
